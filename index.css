@@ -1,0 +1,81 @@
+#maindiv{
+    display:flex;
+    height:100vh;
+    width:100%;
+}
+#sidebar{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    width:10%;
+    align-items: center;
+    box-shadow: 10px 0px 8px #bebaba;
+    
+}
+#sidebar div+div{
+    color:gray;
+    background-color: #eff4f5;
+}
+#sidebar div{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width:100%;
+}
+#sidebar div+div:hover{
+    background-color: skyblue;
+    border-left: 5px solid blue;
+    color:black;
+}
+.fab {
+    font-size: 30px;
+}
+
+#sidebar>div>.fas{
+    font-size: 30px;
+}
+body{
+    margin:0;
+}
+#mainbar{
+    background-color: #eff4f5;
+    width:90%;
+    font-weight: 800;
+    z-index:-1;
+}
+#firstdiv{
+    background-color: white;
+    height:13%;
+}
+#mainbar div+div{
+    padding:3%;
+}
+
+#mainbar :nth-child(3){
+    text-align: center;
+}
+input{
+    width:70%;
+    height:30px;
+    border:none;
+    border-radius: 10px;
+}
+input::placeholder{
+    color:gray;
+    padding-left: 20px;
+    font-weight: 800;
+}
+button{
+    border:none;
+    padding:70px 50px;
+    background-color: white;
+    margin-left: -62%;
+    font-weight: bolder;
+}
+#mainbar :nth-child(2){
+    color:gray;
+    
+}
+#mainbar :nth-child(2)>i{
+    margin-right: 5px;
+}
